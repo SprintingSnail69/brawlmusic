@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'brawlfont';
+    src: url(/font/nougat-xtrablack.ttf);
+}
+
+body {
+    font-family: 'brawlfont', sans-serif;
+    background-color: #121212;
+    color: white;
+}
