@@ -10,6 +10,7 @@
 
 <h3 align="center">Made by SprintingSnail</h3> 
 
+<br>
 
 <h4 align="center">Credits to 
 <a href="https://fankit.supercell.com/d/YvtsWV4pUQVm/game-assets/" target="_blank">Supercell Fankit</a> 
