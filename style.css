@@ -9,35 +9,56 @@ body {
     color: white;
 }
 
-.brawlhead {
-    text-align: center;
-    color: #ffffff;
-    font-size: 60px;
-    margin-top: 30px;
-    text-shadow: -4px -4px 0 #000,  
-                 4px -4px 0 #000,
-                -4px  4px 0 #000,
-                 4px  4px 0 #000,
-                 0px  4px 0 #000,
-                 4px  0px 0 #000,
-                -4px  0px 0 #000,
-                 0px -4px 0 #000;
+/* reset & shared */
+.brawlhead, .musichead {
+  font-family: 'brawlfont', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+  display: block;        
+  width: 100%;           
+  position: relative;    
 }
 
-.musichead {
-    text-align: center;
-    color: #ff0000;
-    font-size: 72px;
-    margin-top: -15px; 
-    text-shadow: -4px -4px 0 #000,  
-                 4px -4px 0 #000,
-                -4px  4px 0 #000,
-                 4px  4px 0 #000,
-                 0px  4px 0 #000,
-                 4px  0px 0 #000,
-                -4px  0px 0 #000,
-                 0px -4px 0 #000;
+/* BRAWL */
+.brawlhead {
+  color: #ffffff;
+  font-size: 56px;
+  margin-top: 28px;
+  transform: rotate(0deg); 
+  text-shadow:
+    -6px -6px 0 #000,
+     6px -6px 0 #000,
+    -6px  6px 0 #000,
+     6px  6px 0 #000,
+     0px  6px 0 #000,
+     6px  0px 0 #000,
+    -6px  0px 0 #000,
+     0px -6px 0 #000;
 }
+
+/* MUSIC */
+.musichead {
+  color: #ff0000;
+  font-size: 84px;
+  margin-top: -5px; 
+  top: -6px;         
+  transform: rotate(0deg); 
+  text-shadow:
+    -6px -6px 0 #000,
+     6px -6px 0 #000,
+    -6px  6px 0 #000,
+     6px  6px 0 #000,
+     0px  6px 0 #000,
+     6px  0px 0 #000,
+    -6px  0px 0 #000,
+     0px -6px 0 #000;
+    z-index: 67; /*SIX SEVEEENNNNN*/
+    position: relative;
+}
+
+
 
 body {
     background-image: url('/images/paintbrawllobby.png');
@@ -46,4 +67,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.logowings {
+    display: block;
+    position: relative;
+     margin-left: auto; 
+     margin-right:auto;
+      height: 100px; width: 100px;
+      margin-top: -30px;
+      z-index: 69;
 }
