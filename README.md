@@ -1,2 +1,1 @@
-# brawlmusic
-MUSIC FOR BRAWL STARS
+# Brawl Music
