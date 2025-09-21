@@ -4,5 +4,5 @@
 <h3 align="center">Made by SprintingSnail</h3> 
 
 
-Credits to [Supercell Fankit](https://fankit.supercell.com/d/YvtsWV4pUQVm/game-assets/)
+<h4 align="center">Credits to [Supercell Fankit](https://fankit.supercell.com/d/YvtsWV4pUQVm/game-assets/) for the assets!</h4>
 
