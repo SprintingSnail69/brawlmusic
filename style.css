@@ -13,6 +13,10 @@ body {
     text-align: center;
     color: #ffcc00;
     font-size: 48px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-shadow: 2px 2px 4px #000000;
+}
+
+body {
+    background-image: url('/images/paintbrawllobby.png');
 }
