@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img src="/images/hank_thanks_pin.png">
+  <img height="80px" width="80px" src="/images/hank_thanks_pin.png">
 </p>
 
 <h3 align="center">Made by SprintingSnail</h3> 
