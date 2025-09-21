@@ -8,3 +8,11 @@ body {
     background-color: #121212;
     color: white;
 }
+
+.brawlhead {
+    text-align: center;
+    color: #ffcc00;
+    font-size: 48px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
