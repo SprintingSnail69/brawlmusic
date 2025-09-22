@@ -13,5 +13,5 @@
 <br>
 
 <h4 align="center">Credits to 
-<a href="https://fankit.supercell.com/d/YvtsWV4pUQVm/game-assets/" target="_blank">Supercell Fankit</a> 
+<a href="https://fankit.supercell.com/d/YvtsWV4pUQVm/game-assets/" target="_blank">Supercell Fankit</a> and <a href="https://github.com/baraklevy20/Supercell-Extractor/" target="_blank">Supercell Extractor</a>
 for the assets!</h4>
