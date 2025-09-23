@@ -1,33 +1,3 @@
-let backgrounds = ["images/background_graffiti.png", "images/lumi_lobby.png", "berry_lobby.png", ];
+let backgrounds = ["images/background_graffiti.png", "images/lumi_lobby.png", "images/berry_lobby.png", "images/bt21_lobby.png", "images/dark_sands_lobby.png", "images/enchanted_lobby.png", "images/finx_lobby.png", "images/melodie_lobby.png", "images/paintbrawllobby.png", "images/rio_lobby.png", "images/rumble_jungle_lobby.png", "images/sandsoftime_lobby.png", "images/uno_lobby.png"];
 let randomIndex = Math.floor(Math.random() * backgrounds.length);
 document.body.style.backgroundImage = `url('${backgrounds[randomIndex]}')`;
-
-function setBackground(src) {
-  document.body.style.backgroundImage = `url('${src}')`;
-}
-
-// random on load
-let randomIndex = Math.floor(Math.random() * backgrounds.length);
-setBackground(backgrounds[randomIndex]);
-
-// dropdown fill
-let bgSelect = document.getElementById("bgSelect");
-backgrounds.forEach((bg, i) => {
-  let option = document.createElement("option");
-  option.value = bg;
-  option.textContent = bg.split("/").pop(); // just filename
-  if (i === randomIndex) option.selected = true;
-  bgSelect.appendChild(option);
-});
-
-// change on select
-bgSelect.addEventListener("change", e => {
-  setBackground(e.target.value);
-});
-
-// toggle settings box
-let settingsBtn = document.getElementById("settingsBtn");
-let settingsBox = document.getElementById("settingsBox");
-settingsBtn.addEventListener("click", () => {
-  settingsBox.classList.toggle("hidden");
-});
