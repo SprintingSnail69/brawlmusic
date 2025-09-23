@@ -1,3 +1,3 @@
-let backgrounds = ["bg1.jpg", "bg2.jpg", "bg3.jpg"];
+let backgrounds = ["images/background_graffiti.png", "images/lumi_lobby.png"];
 let randomIndex = Math.floor(Math.random() * backgrounds.length);
 document.body.style.backgroundImage = `url('images/${backgrounds[randomIndex]}')`;
